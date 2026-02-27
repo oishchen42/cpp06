@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 
 int main(int ac, char **av)
 {
@@ -15,5 +16,6 @@ int main(int ac, char **av)
             std::cout << "float: " << static_cast<float>(c) << std::endl;
         }
         std::cout << "double: " << static_cast<float>(std::stod(input));
+        std::cout << "static_cast<char>: " << static_cast<char>(input) << std::cout;
     }
 }

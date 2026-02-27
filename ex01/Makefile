@@ -1,4 +1,4 @@
-NAME := cast
+NAME := data
 
 CXX := c++
 RM := rm -rf

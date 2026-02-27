@@ -63,6 +63,7 @@ bool ScalarConverter::isDouble(const std::string &str)
     return (true);
 }
 
+// Functions converters:
 void ScalarConverter::convertChar(const std::string &str)
 {
     char c = str[0];
